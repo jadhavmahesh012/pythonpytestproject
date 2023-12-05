@@ -12,6 +12,7 @@ driver.maximize_window()
 #opens alert window
 driver.find_element(By.XPATH,"//button[normalize-space()='Click for JS Prompt']").click()
 time.sleep(5)
+# time.sleep(2)
 
 alertwindow=driver.switch_to.alert
 
